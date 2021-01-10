@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
+  "name": "ethic-share",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "es6-global",
+    "in-source": true
+  },
+  "warnings": {
+    "number": "-45-33"
+  },
+  "suffix": ".bs.js",
+  "refmt": 3
+}
