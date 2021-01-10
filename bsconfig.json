@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
-  "name": "ethic-share",
+  "name": "ethic-share-base",
   "reason": {
     "react-jsx": 3
   },

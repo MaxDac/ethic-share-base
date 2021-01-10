@@ -1,12 +1,13 @@
 {
   "name": "ethic-share-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReScript bindings for Formik",
   "main": "index.js",
   "scripts": {
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
-    "clean": "bsb -clean-world"
+    "clean": "bsb -clean-world",
+    "publish": "npm publish --registry http://localhost:4873"
   },
   "author": "Massimiliano D'Acunzo",
   "license": "ISC",
